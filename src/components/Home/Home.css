@@ -1,0 +1,6 @@
+.home-container{
+    width: 100%;
+    overflow-y: scroll;
+    max-width: 1350px;
+    scrollbar-width: none;
+}

@@ -1,0 +1,101 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #17181D;
+}
+.name h1{
+    color: #fff;
+}
+
+
+.search input{
+    padding: .5rem;
+    background: rgba(255, 255, 255, 0.716);
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+}
+.search input::placeholder{
+    font-size: 1.2em;
+    color: #000;
+}
+.search .icon{
+    color: #fff;
+}
+.cart{
+    padding: .5rem;
+    border-radius: 50%;
+    position: relative;
+
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12rem;
+}
+.cartt{
+    color: #fff;
+    cursor: pointer;
+}
+.zero{
+    left: 0;
+    bottom: 0px;
+    position: absolute;
+    color: #fff;
+    padding: .2rem;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    font-size: 1.3em;
+}
+@media (max-width: 910px) {
+    .name h1{
+        margin-bottom: 1rem;
+    }
+    .left{
+        gap: 5rem;
+    }
+}
+@media (max-width: 690px) {
+    .name h1{
+        margin-bottom: 1rem;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
+@media (max-width: 390px) {
+    .name h1{
+        font-size: 1.54em;
+    }
+    .zero{
+        left: 10px;
+        bottom: 0px;
+        position: absolute;
+        color: #fff;
+        padding: .2rem;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        height: 20px;
+        border-radius: 50%;
+        background: orange;
+        font-size: 1em;
+    }
+
+}

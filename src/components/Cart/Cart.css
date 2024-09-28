@@ -1,0 +1,116 @@
+
+.cart-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    border-left: 1px solid #777;
+    width: 390px;
+    background-color: #17181d;
+    z-index: 100;
+    transition: 0.5s;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.cart-container h1{
+    color: #fff;
+}
+.carrt{
+    margin-top: 2rem;
+}
+.cart-container svg {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 50px 0;
+    cursor: pointer;
+    padding: 10px;
+}
+.cart-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    background-color: #22202a;
+    margin-bottom: 1rem;
+}
+.cart-container .total {
+    color: #fff;
+    margin-top: 50px;
+}
+.cart-image img{
+    width: 100%;
+    height: 100px;
+}
+.total{
+    font-size: 1.5em;
+}
+
+.clr-btn{
+    margin-top: 2rem;
+    background-color: rgba(255, 0, 0, 0.583);
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clr-btn:hover{
+    background-color: hsla(0, 100%, 60%, 0.803);
+}
+.del-btn{
+    margin-top: 1rem;
+    background-color: rgba(255, 0, 0, 0.583);
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.del-btn:hover{
+    background-color: hsla(0, 100%, 60%, 0.803);
+}
+.cart-details p{
+    font-size: 1.2em;
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 50px;
+    background-color: orange;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+}
+.place{
+    padding: .5rem;
+    border: none;
+    font-size: 1.3em;
+    background: transparent;
+}
+.place:hover{
+    background-color: hsla(0, 100%, 60%, 0.803);
+}
+@media screen and (max-width: 500px) {
+    .cart-container{
+        padding-left: 2rem;
+    }
+    .cart-container {
+        width: 420px;
+
+    
+    }
+
+}
+@media screen and (max-width: 390px) {
+    .cart-container{
+        padding-left: 2rem;
+        width: 390px;
+    }
+   
+
+}
