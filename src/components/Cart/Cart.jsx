@@ -8,7 +8,7 @@ const Cart = ({hide,toggle,product,ClearAll,DeleteProduct}) => {
    console.log(data)
 
   return (
-    <div  className="cart-container" style={{right: hide ? "-390px" : 0}} >
+    <div  className="cart-container" style={{right: hide ? "-420px" : 0}} >
         <IoCloseOutline onClick={()=> toggle()}/>
         <h1>You Orders:</h1>
         <div className="total">
