@@ -53,8 +53,6 @@ span{
 
 .sidebar-menu{
     display: none;
-
-
 }
 @media (max-width: 1050px) {
     .menu ul li a {
@@ -87,13 +85,11 @@ span{
     .menu ul li:hover{
         border-radius: 5px;
         background: brown;
-        border-top-right-radius: 100%;
-        border-bottom-right-radius: 100%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
         cursor: pointer;
         transition: all .5s ease;
     }
-
-
 }
 @media (max-width: 390px) {
     .sidebar-container{
